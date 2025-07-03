@@ -7,7 +7,7 @@ This project implements two algorithms — a Dynamic Programming (DP) solution a
 
 - Dynamic Programming solution for optimal campaign planning
 - Greedy algorithm for quick baseline comparison
-- Test suite with 5 non-trivial real-world inspired datasets
+- Test file with 5 non-trivial real-world inspired datasets
 - Gantt chart visualizations (optional)
 - Easily extendable and modular design
 
@@ -15,7 +15,7 @@ This project implements two algorithms — a Dynamic Programming (DP) solution a
 
 - `DP.py` – Optimal scheduling using Dynamic Programming
 - `greedy.py` – Greedy baseline scheduler
-- `full_test_suite.py` – Unified runner with 5 test cases
+- `test_cases.py` – Unified runner with 5 test cases
 - `gantt_chart.py` – Plotting function to visualize schedules
 - `requirements.txt` – Python package dependencies
 
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 Run all test cases and see comparisons:
 
 ```bash
-python full_test_suite.py
+python test_cases.py
 ```
 
 ## Test Case Summary
